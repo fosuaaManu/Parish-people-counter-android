@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ParishCounter" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#00FFDC</item>
+        <item name="colorPrimaryVariant">#0A0A14</item>
+        <item name="colorOnPrimary">#0A0A14</item>
+        <item name="colorSurface">#12122A</item>
+        <item name="colorOnSurface">#E0E0FF</item>
+        <item name="android:statusBarColor">#0E0E20</item>
+        <item name="android:navigationBarColor">#0E0E20</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_counter"
+            android:title="Live Counter"
+            android:icon="@android:drawable/ic_menu_camera"/>
+        <item android:id="@+id/nav_alerts"
+            android:title="Alerts"
+            android:icon="@android:drawable/ic_dialog_alert"/>
+        <item android:id="@+id/nav_reports"
+            android:title="Service History"
+            android:icon="@android:drawable/ic_menu_agenda"/>
+        <item android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@android:drawable/ic_menu_preferences"/>
+    </group>
+</menu>

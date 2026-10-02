@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#12122A"
+    android:layout_marginBottom="8dp"
+    android:padding="12dp">
+
+    <View
+        android:id="@+id/alertAccent"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"
+        android:background="#00FFDC"
+        android:layout_marginEnd="12dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+
+            <TextView android:id="@+id/tvAlertBadge"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Info" android:textColor="#00FFDC" android:textSize="10sp"
+                android:textStyle="bold" android:background="#0D2020"
+                android:paddingStart="6dp" android:paddingEnd="6dp"
+                android:paddingTop="2dp" android:paddingBottom="2dp"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView android:id="@+id/tvAlertTime"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="09:00" android:textColor="#506070" android:textSize="10sp"/>
+
+        </LinearLayout>
+
+        <TextView android:id="@+id/tvAlertMsg"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Alert message" android:textColor="#C0C0E0"
+            android:textSize="13sp" android:layout_marginTop="4dp"/>
+
+    </LinearLayout>
+</LinearLayout>
